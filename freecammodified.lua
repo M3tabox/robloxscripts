@@ -3,7 +3,7 @@ game.StarterGui:SetCore("ChatMakeSystemMessage",{Text='Credits to the creator!\n
 local Freecam = Instance.new("ScreenGui")
 --Properties:
 Freecam.Name = "Freecam"
-Freecam.Parent = game:GetService("Players").LocalPlayer.PlayerGui
+Freecam.Parent = game.CoreGui
 Freecam.ResetOnSpawn = false
 -- Scripts:
 function SCRIPT_NYPD68_FAKESCRIPT() -- Freecam.FreecamScript 
